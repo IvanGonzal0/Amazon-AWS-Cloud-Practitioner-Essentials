@@ -1,0 +1,81 @@
+1.
+Which statement is TRUE for the AWS global infrastructure?
+
+a.A Region consists of a single Availability Zone.
+
+
+b.An Availability Zone consists of two or more Regions.
+
+
+*c.A Region consists of two or more Availability Zones.
+
+
+d.An Availability Zone consists of a single Region.
+=========================
+2.
+Which factors should be considered when selecting a Region? Select TWO.
+
+
+a.Access to the AWS Command Line Interface (AWS CLI)
+
+
+b.Access to 24/7 technical support
+
+
+c.Ability to assign custom permissions to different users
+
+
+*d.Proximity to your customers
+
+
+*e.Compliance with data governance and legal requirements
+
+===================
+
+3.
+
+Which statement best describes Amazon CloudFront?
+
+a.A service that enables you to run infrastructure in a hybrid cloud approach
+
+
+b.A serverless compute engine for containers
+
+
+c.A service that enables you to send and receive messages between software components through a queue
+
+
+*d.A global content delivery service
+
+====================
+4.
+
+Which site does Amazon CloudFront use to cache copies of content for faster delivery to users at any location?
+
+
+a.Region
+
+
+b.Availability Zone
+
+
+*c.Edge location
+
+
+d.Origin
+
+===================
+5.
+
+Which action can you perform with AWS Outposts?
+
+a.Automate actions for AWS services and applications through scripts.
+
+
+b.Access wizards and automated workflows to perform tasks in AWS services.
+
+
+c.Develop AWS applications in supported programming languages.
+
+
+*d.Extend AWS infrastructure and services to your on-premises data center.
