@@ -1,0 +1,27 @@
+Una VPC, o Nube Privada Virtual, es esencialmente su propia red privada en AWS. Una VPC le permite definir su rango IP privado para sus recursos AWS, y usted coloca cosas como
+ instancias ec2 y ELBs dentro de su VPC. Ahora bien, no se limita a lanzar sus recursos en una VPC y seguir adelante. Los coloca en diferentes subredes. Las subredes son trozos
+  de direcciones IP en su VPC que le permiten agrupar recursos. Las subredes, junto con las reglas de red que veremos más adelante, controlan si los recursos son públicos o 
+  privados. Lo que aún no le hemos dicho, es que hay formas de controlar el tráfico que entra en su VPC. Lo que quiero decir con esto es que, en algunas VPC, puede tener 
+  recursos orientados a Internet a los que el público debería poder acceder, como un sitio web público, por ejemplo. Sin embargo, en otros escenarios, podría tener recursos que
+   sólo querrá que sean accesibles si alguien ha iniciado sesión en su red privada. Podría tratarse de servicios internos como una aplicación de RR.HH., o una base de datos 
+   back-end. En primer lugar, hablemos de los recursos de cara al público. Para permitir que el tráfico de la Internet pública fluya dentro y fuera de su VPC, debe adjuntar lo
+    que se denomina una puerta de enlace a Internet, o IGW, a su VPC. Una puerta de enlace a Internet es como una puerta abierta al público. Piense en una cafetería. Sin una 
+    puerta principal, los clientes no podrían entrar, y pedir su café. Así que instalamos una puerta principal, y la gente puede entonces entrar y salir por esa puerta al 
+    entrar y salir de nuestra tienda. La puerta principal en este ejemplo es como una pasarela de Internet. Sin ella, nadie puede llegar a los recursos situados dentro de su 
+    VPC. A continuación, hablemos de una VPC con todos los recursos privados internos. No queremos que cualquiera de cualquier lugar pueda llegar a estos recursos, así que no 
+    queremos una puerta de enlace a Internet conectada a nuestra VPC. En su lugar, queremos una puerta de enlace privada que sólo permita entrar a la gente si procede de una
+     red aprobada, no de la Internet pública. Esta puerta de enlace privada se llama puerta de enlace privada virtual, y le permite crear una conexión VPN entre una red privada, como su centro de datos local, o una red corporativa interna a su VPC. Para volver a relacionar esto con la cafetería, sería como tener una ruta de autobús 
+     privada que fuera de mi edificio a la cafetería. Si quiero ir a tomar un café, primero debo identificarme en el edificio autenticando así mi identidad, y luego puedo tomar
+      la ruta de autobús secreta a la cafetería interna que sólo pueden utilizar las personas de mi edificio. Si desea establecer una conexión VPN cifrada a sus recursos 
+      internos y privados de AWS, necesitaría adjuntar una puerta de enlace virtual privada a su VPC. Ahora bien, el problema con nuestra ruta de autobús supersecreta es que 
+      sigue utilizando la carretera abierta. Es susceptible de sufrir atascos y ralentizaciones causadas por el resto del mundo que va a lo suyo. Lo mismo ocurre con las 
+      conexiones VPN. Son privadas y están encriptadas, pero siguen utilizando una conexión a Internet normal que tiene un ancho de banda que está siendo compartido por muchas 
+      personas que utilizan Internet. Así que lo que he hecho para que las cosas sean más fiables, y menos susceptibles a las ralentizaciones, es que he hecho una puerta mágica
+       totalmente separada que lleva directamente desde el estudio a la cafetería. Nadie más conduciendo por la carretera puede ralentizarme, porque esta es mi puerta directa. 
+       Nadie más puede usarla. ¿Qué? ¿No tenía una puerta mágica secreta para entrar en su cafetería favorita? Sigamos. La cuestión es que sigue queriendo una conexión privada,
+        pero quiere que sea dedicada y compartida con nadie más. Quiere la menor latencia posible con la mayor seguridad posible. Con AWS, puede conseguirlo utilizando lo que 
+        se denomina AWS Direct Connect. Direct Connect le permite establecer una conexión de fibra dedicada completamente privada, desde su centro de datos a AWS. Usted trabaja
+         con un socio de Direct Connect en su zona para establecer esta conexión. Porque al igual que mi puerta mágica, AWS Direct Connect proporciona una línea física que 
+         conecta su red a su AWS VPC. Esto puede ayudarle a satisfacer altas necesidades normativas y de conformidad, así como a esquivar cualquier problema potencial de ancho 
+         de banda. También es importante tener en cuenta que una VPC puede tener múltiples tipos de puertas de enlace conectadas para múltiples tipos de recursos, todos 
+         residiendo en la misma VPC, sólo que en diferentes subredes. Gracias por escuchar. Voy a sentarme aquí y seguir pidiendo cafés a mi puerta mágica. Nos vemos.

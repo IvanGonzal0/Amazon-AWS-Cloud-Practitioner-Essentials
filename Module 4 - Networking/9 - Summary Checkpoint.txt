@@ -1,0 +1,7 @@
+Las redes solían ser el dominio exclusivo de los genios de la topología. Pero las redes de AWS están ahora simplificadas y abstraídas para responder a la simple pregunta de, ¿a quién se le debe permitir comunicarse
+entre sí? Siempre que pueda responder a esa pregunta, entonces podrá configurar su red en AWS. Cubrimos los fundamentos de VPC, la Nube Privada Virtual, la forma en que usted aísla su carga de trabajo en AWS. Los 
+fundamentos de la seguridad de red, incluyendo puertas de enlace, ACLs de red y grupos de seguridad. Todos los métodos que permiten a sus ingenieros de seguridad elaborar una red que permite el acceso de tráfico 
+saludable mientras que deja caer ataques subversivos antes de que lleguen a su instancia. Formas de conectarse a AWS a través de VPN e incluso Direct Connect conductos seguros que están cifrados a través de la 
+Internet general o fibra exclusiva utilizada por usted y sólo por usted. También hablamos de las redes globales que AWS proporciona utilizando nuestras ubicaciones Edge, cómo puede utilizar Route 53 para DNS, y cómo 
+utilizar CloudFront para almacenar en caché el contenido más cerca de sus consumidores reales. Aunque esto sólo araña la superficie de las muchas cosas que puede hacer con las redes de AWS, esperamos que le permita 
+comprender las piezas móviles clave que necesita para poner en marcha su negocio.

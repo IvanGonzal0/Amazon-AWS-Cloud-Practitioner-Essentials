@@ -1,0 +1,76 @@
+Connectivity to AWS
+Amazon Virtual Private Cloud (Amazon VPC)
+Imagine the millions of customers who use AWS services. Also, imagine the millions of resources that these customers have created, such as Amazon EC2 instances. Without boundaries around all of these resources, network traffic would be able to flow between them unrestricted. 
+
+A networking service that you can use to establish boundaries around your AWS resources is 
+Amazon Virtual Private Cloud (Amazon VPC)
+.
+
+Amazon VPC enables you to provision an isolated section of the AWS Cloud. In this isolated section, you can launch resources in a virtual network that you define. Within a virtual private cloud (VPC), you can organize your resources into subnets. A subnet is a section of a VPC that can contain resources such as Amazon EC2 instances.
+
+
+Internet gateway
+To allow public traffic from the internet to access your VPC, you attach an internet gateway to the VPC.
+
+
+
+An internet gateway is a connection between a VPC and the internet. You can think of an internet gateway as being similar to a doorway that customers use to enter the coffee shop. Without an internet gateway, no one can access the resources within your VPC.
+
+What if you have a VPC that includes only private resources?
+Virtual private gateway
+Here’s an example of how a virtual private gateway works. You can think of the internet as the road between your home and the coffee shop. Suppose that you are traveling on this road with a bodyguard to protect you. You are still using the same road as other customers, but with an extra layer of protection. 
+
+The bodyguard is like a virtual private network (VPN) connection that encrypts (or protects) your internet traffic from all the other requests around it. 
+
+The virtual private gateway is the component that allows protected internet traffic to enter into the VPC. Even though your connection to the coffee shop has extra protection, traffic jams are possible because you’re using the same road as other customers. 
+
+
+
+A virtual private gateway enables you to establish a virtual private network (VPN) connection between your VPC and a private network, such as an on-premises data center or internal corporate network. A virtual private gateway allows traffic into the VPC only if it is coming from an approved network.
+
+AWS Direct Connect
+AWS Direct Connect
+ is a service that enables you to establish a dedicated private connection between your data center and a VPC.  
+
+Suppose that there is an apartment building with a hallway directly linking the building to the coffee shop. Only the residents of the apartment building can travel through this hallway. 
+
+This private hallway provides the same type of dedicated connection as AWS Direct Connect. Residents are able to get into the coffee shop without needing to use the public road shared with other customers. 
+
+
+
+The private connection that AWS Direct Connect provides helps you to reduce network costs and increase the amount of bandwidth that can travel through your network.
+
+========== ESPAÑOL ============
+
+Conectividad con AWS
+Amazon Virtual Private Cloud (Amazon VPC)
+
+Imagina los millones de clientes que utilizan los servicios de AWS. Además, imagina los millones de recursos que estos clientes han creado, como instancias de Amazon EC2. Sin límites alrededor de todos estos recursos, el tráfico de red podría fluir entre ellos sin restricciones.
+
+Un servicio de redes que puedes utilizar para establecer límites alrededor de tus recursos de AWS es Amazon Virtual Private Cloud (Amazon VPC).
+
+Amazon VPC te permite aprovisionar una sección aislada de la nube de AWS. En esta sección aislada, puedes lanzar recursos en una red virtual que defines. Dentro de una nube virtual privada (VPC), puedes organizar tus recursos en subredes. Una subred es una sección de una VPC que puede contener recursos como instancias de Amazon EC2.
+
+Puerta de enlace a internet
+Para permitir que el tráfico público de Internet acceda a tu VPC, debes adjuntar una puerta de enlace a Internet a la VPC.
+
+Una puerta de enlace a Internet es una conexión entre una VPC y Internet. Puedes pensar en una puerta de enlace a Internet como una puerta de entrada que los clientes utilizan para entrar a la cafetería. Sin una puerta de enlace a Internet, nadie puede acceder a los recursos dentro de tu VPC.
+
+¿Qué sucede si tienes una VPC que incluye solo recursos privados?
+Puerta de enlace virtual privada
+Aquí tienes un ejemplo de cómo funciona una puerta de enlace virtual privada. Puedes pensar en Internet como el camino entre tu casa y la cafetería. Supongamos que estás viajando por este camino con un guardaespaldas para protegerte. Sigues utilizando el mismo camino que otros clientes, pero con una capa adicional de protección.
+
+El guardaespaldas es como una conexión de red privada virtual (VPN) que cifra (o protege) tu tráfico de Internet de todas las demás solicitudes que lo rodean.
+
+La puerta de enlace virtual privada es el componente que permite que el tráfico de Internet protegido entre en la VPC. Aunque tu conexión a la cafetería tiene protección adicional, aún son posibles los embotellamientos de tráfico porque estás utilizando el mismo camino que otros clientes.
+
+Una puerta de enlace virtual privada te permite establecer una conexión de red privada virtual (VPN) entre tu VPC y una red privada, como un centro de datos local o una red corporativa interna. Una puerta de enlace virtual privada permite el tráfico en la VPC solo si proviene de una red aprobada.
+
+AWS Direct Connect
+AWS Direct Connect es un servicio que te permite establecer una conexión privada dedicada entre tu centro de datos y una VPC.
+
+Supongamos que hay un edificio de apartamentos con un pasillo que conecta directamente el edificio con la cafetería. Solo los residentes del edificio de apartamentos pueden viajar por este pasillo.
+
+Este pasillo privado proporciona el mismo tipo de conexión dedicada que AWS Direct Connect. Los residentes pueden llegar a la cafetería sin necesidad de utilizar el camino público compartido con otros clientes.
+
+La conexión privada que proporciona AWS Direct Connect te ayuda a reducir los costos de red y aumentar la cantidad de ancho de banda que puede viajar a través de tu red.

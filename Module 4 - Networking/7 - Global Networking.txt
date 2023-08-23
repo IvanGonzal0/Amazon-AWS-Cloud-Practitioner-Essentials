@@ -1,0 +1,76 @@
+Global Networking
+Domain Name System (DNS)
+Suppose that AnyCompany has a website hosted in the AWS Cloud. Customers enter the web address into their browser, and they are able to access the website. This happens because of Domain Name System (DNS) resolution. DNS resolution involves a DNS server communicating with a web server.
+
+You can think of DNS as being the phone book of the internet. DNS resolution is the process of translating a domain name to an IP address. 
+
+
+
+For example, suppose that you want to visit AnyCompany’s website. 
+
+When you enter the domain name into your browser, this request is sent to a DNS server. 
+
+The DNS server asks the web server for the IP address that corresponds to AnyCompany’s website.
+
+The web server responds by providing the IP address for AnyCompany’s website, 192.0.2.0.
+
+Amazon Route 53
+Amazon Route 53
+ is a DNS web service. It gives developers and businesses a reliable way to route end users to internet applications hosted in AWS. 
+
+Amazon Route 53 connects user requests to infrastructure running in AWS (such as Amazon EC2 instances and load balancers). It can route users to infrastructure outside of AWS.
+
+Another feature of Route 53 is the ability to manage the DNS records for domain names. You can register new domain names directly in Route 53. You can also transfer DNS records for existing domain names managed by other domain registrars. This enables you to manage all of your domain names within a single location.
+
+In the previous module, you learned about Amazon CloudFront, a content delivery service. The following example describes how Route 53 and Amazon CloudFront work together to deliver content to customers.
+
+Example: How Amazon Route 53 and Amazon CloudFront deliver content
+
+
+Suppose that AnyCompany’s application is running on several Amazon EC2 instances. These instances are in an Auto Scaling group that attaches to an Application Load Balancer. 
+
+A customer requests data from the application by going to AnyCompany’s website. 
+
+Amazon Route 53 uses DNS resolution to identify AnyCompany.com’s corresponding IP address, 192.0.2.0. This information is sent back to the customer. 
+
+The customer’s request is sent to the nearest edge location through Amazon CloudFront. 
+
+Amazon CloudFront connects to the Application Load Balancer, which sends the incoming packet to an Amazon EC2 instance.
+
+====== ESPAÑOL =======
+
+Red Global
+Sistema de Nombres de Dominio (DNS)
+
+Supongamos que AnyCompany tiene un sitio web alojado en la AWS Cloud. Los clientes ingresan la dirección web en su navegador y pueden acceder al sitio web. Esto ocurre gracias a la resolución del Sistema de Nombres de Dominio (DNS). La resolución DNS implica que un servidor DNS se comunique con un servidor web.
+
+Puedes pensar en el DNS como la guía telefónica de Internet. La resolución DNS es el proceso de traducir un nombre de dominio a una dirección IP.
+
+Por ejemplo, supongamos que deseas visitar el sitio web de AnyCompany.
+
+Cuando ingresas el nombre de dominio en tu navegador, esta solicitud se envía a un servidor DNS.
+
+El servidor DNS le pregunta al servidor web por la dirección IP que corresponde al sitio web de AnyCompany.
+
+El servidor web responde proporcionando la dirección IP del sitio web de AnyCompany, que es 192.0.2.0.
+
+Amazon Route 53
+Amazon Route 53 es un servicio web de DNS. Ofrece a desarrolladores y empresas una forma confiable de dirigir a los usuarios finales a aplicaciones de Internet alojadas en AWS.
+
+Amazon Route 53 conecta las solicitudes de los usuarios a la infraestructura que se ejecuta en AWS (como instancias de Amazon EC2 y equilibradores de carga). También puede dirigir a los usuarios a infraestructura fuera de AWS.
+
+Otra característica de Route 53 es la capacidad de administrar los registros DNS de los nombres de dominio. Puedes registrar nuevos nombres de dominio directamente en Route 53. También puedes transferir registros DNS de nombres de dominio existentes gestionados por otros registradores de dominios. Esto te permite gestionar todos tus nombres de dominio en un solo lugar.
+
+En el módulo anterior, aprendiste sobre Amazon CloudFront, un servicio de entrega de contenido. El siguiente ejemplo describe cómo Route 53 y Amazon CloudFront trabajan juntos para entregar contenido a los clientes.
+
+Ejemplo: Cómo Amazon Route 53 y Amazon CloudFront entregan contenido
+
+Supongamos que la aplicación de AnyCompany se está ejecutando en varias instancias de Amazon EC2. Estas instancias están en un grupo de escalado automático que se adjunta a un Equilibrador de Carga de Aplicaciones.
+
+Un cliente solicita datos de la aplicación yendo al sitio web de AnyCompany.
+
+Amazon Route 53 utiliza la resolución DNS para identificar la dirección IP correspondiente de AnyCompany.com, que es 192.0.2.0. Esta información se envía de vuelta al cliente.
+
+La solicitud del cliente se envía al punto de acceso más cercano a través de Amazon CloudFront.
+
+Amazon CloudFront se conecta al Equilibrador de Carga de Aplicaciones, que envía el paquete entrante a una instancia de Amazon EC2.
