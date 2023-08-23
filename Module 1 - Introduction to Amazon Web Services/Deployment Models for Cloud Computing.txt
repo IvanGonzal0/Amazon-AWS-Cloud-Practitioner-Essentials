@@ -1,0 +1,69 @@
+Deployment Models for Cloud Computing
+When selecting a cloud strategy, a company must consider factors such as required cloud application components, preferred resource management tools, and any legacy IT infrastructure requirements.
+
+The three cloud computing deployment models are cloud-based, on-premises, and hybrid. 
+
+Cloud-based Deployment
+Run all parts of the application in the cloud.
+
+Migrate existing applications to the cloud.
+
+Design and build new applications in the cloud.
+
+In a cloud-based deployment model, you can migrate existing applications to the cloud, or you can design and build new applications in the cloud. You can build those applications on low-level infrastructure that requires your IT staff to manage them. Alternatively, you can build them using higher-level services that reduce the management, architecting, and scaling requirements of the core infrastructure.
+
+For example, a company might create an application consisting of virtual servers, databases, and networking components that are fully based in the cloud.
+
+On-premises Deployment
+Deploy resources by using virtualization and resource management tools.
+
+Increase resource utilization by using application management and virtualization technologies.
+
+On-premises deployment is also known as a private cloud deployment. In this model, resources are deployed on premises by using virtualization and resource management tools.
+
+For example, you might have applications that run on technology that is fully kept in your on-premises data center. Though this model is much like legacy IT infrastructure, its incorporation of application management and virtualization technologies helps to increase resource utilization.
+
+Hybrid Deployment
+Connect cloud-based resources to on-premises infrastructure.
+
+Integrate cloud-based resources with legacy IT applications.
+
+In a hybrid deployment, cloud-based resources are connected to on-premises infrastructure. You might want to use this approach in a number of situations. For example, you have legacy applications that are better maintained on premises, or government regulations require your business to keep certain records on premises.
+
+For example, suppose that a company wants to use cloud services that can automate batch data processing and analytics. However, the company has several legacy applications that are more suitable on premises and will not be migrated to the cloud. With a hybrid deployment, the company would be able to keep the legacy applications on premises while benefiting from the data and analytics services that run in the cloud.
+
+########################### ESPAÑOL #######################===============================================================================
+
+Modelos de Implementación para la Computación en la Nube
+Al seleccionar una estrategia en la nube, una empresa debe considerar factores como los componentes requeridos para la aplicación en la nube, las herramientas de gestión de recursos preferidas y los requisitos de la infraestructura de TI heredada.
+
+Los tres modelos de implementación de la computación en la nube son basados en la nube, en las instalaciones (on-premises) e híbridos.
+
+Implementación Basada en la Nube
+Ejecuta todas las partes de la aplicación en la nube.
+
+Migra aplicaciones existentes a la nube.
+
+Diseña y construye nuevas aplicaciones en la nube.
+
+En un modelo de implementación basado en la nube, puedes migrar aplicaciones existentes a la nube o diseñar y construir nuevas aplicaciones en la nube. Puedes construir estas aplicaciones en una infraestructura de bajo nivel que requiere que tu personal de TI las administre. Alternativamente, puedes construirlas utilizando servicios de nivel superior que reducen los requisitos de administración, arquitectura y escalabilidad de la infraestructura central.
+
+Por ejemplo, una empresa podría crear una aplicación que consta de servidores virtuales, bases de datos y componentes de redes que están completamente basados en la nube.
+
+Implementación en las Instalaciones (On-Premises)
+Implementa recursos utilizando virtualización y herramientas de gestión de recursos.
+
+Aumenta la utilización de recursos mediante tecnologías de gestión de aplicaciones y virtualización.
+
+La implementación en las instalaciones también se conoce como implementación en una nube privada. En este modelo, los recursos se implementan en las instalaciones utilizando virtualización y herramientas de gestión de recursos.
+
+Por ejemplo, podrías tener aplicaciones que se ejecutan en tecnología que se mantiene completamente en tu centro de datos en las instalaciones. Aunque este modelo es muy similar a la infraestructura de TI heredada, su incorporación de tecnologías de gestión de aplicaciones y virtualización ayuda a aumentar la utilización de recursos.
+
+Implementación Híbrida
+Conecta recursos basados en la nube a la infraestructura en las instalaciones.
+
+Integra recursos basados en la nube con aplicaciones de TI heredadas.
+
+En una implementación híbrida, los recursos basados en la nube se conectan a la infraestructura en las instalaciones. Puede ser útil utilizar este enfoque en varias situaciones. Por ejemplo, si tienes aplicaciones heredadas que son mejor mantenidas en las instalaciones o si las regulaciones gubernamentales requieren que tu empresa mantenga ciertos registros en las instalaciones.
+
+Por ejemplo, supongamos que una empresa desea utilizar servicios en la nube que puedan automatizar el procesamiento y análisis de datos por lotes. Sin embargo, la empresa tiene varias aplicaciones heredadas que son más adecuadas para las instalaciones y no se migrarán a la nube. Con una implementación híbrida, la empresa podría mantener las aplicaciones heredadas en las instalaciones mientras se beneficia de los servicios de datos y análisis que se ejecutan en la nube.

@@ -1,0 +1,71 @@
+Amazon Simple Queue Service (Amazon SQS)
+Amazon Simple Queue Service (Amazon SQS) is a message queuing service. 
+
+Using Amazon SQS, you can send, store, and receive messages between software components, without losing messages or requiring other services to be available. In Amazon SQS, an application sends messages into a queue. A user or service retrieves a message from the queue, processes it, and then deletes it from the queue.
+
+Example: Fulfilling an order
+
+Suppose that the coffee shop has an ordering process in which a cashier takes orders, and a barista makes the orders. Think of the cashier and the barista as two separate components of an application. 
+
+First, the cashier takes an order and writes it down on a piece of paper. Next, the cashier delivers the paper to the barista. Finally, the barista makes the drink and gives it to the customer.
+
+When the next order comes in, the process repeats. This process runs smoothly as long as both the cashier and the barista are coordinated.
+
+What might happen if the cashier took an order and went to deliver it to the barista, but the barista was out on a break or busy with another order? The cashier would need to wait until the barista is ready to accept the order. This would cause delays in the ordering process and require customers to wait longer to receive their orders.
+
+As the coffee shop has become more popular and the ordering line is moving more slowly, the owners notice that the current ordering process is time consuming and inefficient. They decide to try a different approach that uses a queue.
+
+Example: Orders in a queue
+
+
+
+
+Recall that the cashier and the barista are two separate components of an application. A message queuing service such as Amazon SQS enables messages between decoupled application components.
+
+In this example, the first step in the process remains the same as before: a customer places an order with the cashier. 
+
+The cashier puts the order into a queue. You can think of this as an order board that serves as a buffer between the cashier and the barista. Even if the barista is out on a break or busy with another order, the cashier can continue placing new orders into the queue. 
+
+Next, the barista checks the queue and retrieves the order.
+
+The barista prepares the drink and gives it to the customer. 
+
+The barista then removes the completed order from the queue. 
+
+While the barista is preparing the drink, the cashier is able to continue taking new orders and add them to the queue.
+
+
+=========== ESPAÑOL ===============
+
+Amazon Simple Queue Service (Amazon SQS)
+Amazon Simple Queue Service (Amazon SQS) es un servicio de encolado de mensajes.
+
+Usando Amazon SQS, puedes enviar, almacenar y recibir mensajes entre componentes de software sin perder mensajes ni requerir que otros servicios estén disponibles. En Amazon SQS, una aplicación envía mensajes a una cola. Un usuario o servicio recupera un mensaje de la cola, lo procesa y luego lo elimina de la cola.
+
+Ejemplo: Satisfaciendo un pedido
+
+Supongamos que la cafetería tiene un proceso de pedidos en el que un cajero toma los pedidos y un barista los prepara. Imagina al cajero y al barista como dos componentes separados de una aplicación.
+
+Primero, el cajero toma un pedido y lo anota en un papel. Luego, el cajero entrega el papel al barista. Finalmente, el barista prepara la bebida y la entrega al cliente.
+
+Cuando llega el próximo pedido, el proceso se repite. Este proceso funciona sin problemas siempre y cuando tanto el cajero como el barista estén coordinados.
+
+¿Qué podría suceder si el cajero tomara un pedido y fuera a entregárselo al barista, pero el barista estuviera de descanso o ocupado con otro pedido? El cajero tendría que esperar hasta que el barista esté listo para aceptar el pedido. Esto causaría retrasos en el proceso de pedidos y requeriría que los clientes esperaran más tiempo para recibir sus pedidos.
+
+A medida que la cafetería se ha vuelto más popular y la fila de pedidos se mueve más lentamente, los dueños notan que el proceso de pedidos actual es lento e ineficiente. Deciden probar un enfoque diferente que utilice una cola.
+
+Ejemplo: Pedidos en una cola
+
+Recuerda que el cajero y el barista son dos componentes separados de una aplicación. Un servicio de encolado de mensajes como Amazon SQS permite que los mensajes se comuniquen entre componentes de aplicación desacoplados.
+
+En este ejemplo, el primer paso del proceso sigue siendo el mismo que antes: un cliente realiza un pedido al cajero.
+
+El cajero coloca el pedido en una cola. Puedes pensar en esto como un tablero de pedidos que sirve como un buffer entre el cajero y el barista. Incluso si el barista está de descanso o ocupado con otro pedido, el cajero puede seguir colocando nuevos pedidos en la cola.
+
+Luego, el barista verifica la cola y recupera el pedido.
+
+El barista prepara la bebida y la entrega al cliente.
+
+Luego, el barista elimina el pedido completado de la cola.
+
+Mientras el barista prepara la bebida, el cajero puede continuar tomando nuevos pedidos y agregarlos a la cola.

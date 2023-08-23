@@ -1,0 +1,38 @@
+Availability Zones
+
+An Availability Zone is a single data center or a group of data centers within a Region. Availability Zones are located tens of miles apart from each other. This is close enough to have low latency (the time between when content requested and received) between Availability Zones. However, if a disaster occurs in one part of the Region, they are distant enough to reduce the chance that multiple Availability Zones are affected.
+
+
+Running Amazon EC2 instances in multiple Availability Zones
+Amazon EC2 instance in a single Availability Zone
+
+Suppose that you’re running an application on a single Amazon EC2 instance in the Northern California Region. The instance is running in the us-west-1a Availability Zone. If us-west-1a were to fail, you would lose your instance. 
+
+Amazon EC2 instances in multiple Availability Zones
+
+A best practice is to run applications across at least two Availability Zones in a Region. In this example, you might choose to run a second Amazon EC2 instance in us-west-1b.
+
+Availability Zone failure
+
+If us-west-1a were to fail, your application would still be running in us-west-1b.
+
+========= ESPAÑOL ==========
+
+Zonas de Disponibilidad
+
+Una Zona de Disponibilidad es un único centro de datos o un grupo de centros de datos dentro de una Región. Las Zonas de Disponibilidad están ubicadas a decenas de millas de distancia unas de otras. Esto está lo suficientemente cerca como para tener una baja latencia (el tiempo entre la solicitud de contenido y su recepción) entre las Zonas de Disponibilidad. Sin embargo, si ocurriera un desastre en una parte de la Región, están lo suficientemente distantes como para reducir la posibilidad de que varias Zonas de Disponibilidad se vean afectadas.
+
+Ejecución de instancias de Amazon EC2 en múltiples Zonas de Disponibilidad
+Instancia de Amazon EC2 en una sola Zona de Disponibilidad
+
+Suponga que está ejecutando una aplicación en una única instancia de Amazon EC2 en la Región de California del Norte. La instancia se está ejecutando en la Zona de Disponibilidad us-west-1a. Si us-west-1a fallara, perdería su instancia.
+
+Instancias de Amazon EC2 en múltiples Zonas de Disponibilidad
+
+Una buena práctica es ejecutar aplicaciones en al menos dos Zonas de Disponibilidad en una Región. En este ejemplo, podría elegir ejecutar una segunda instancia de Amazon EC2 en us-west-1b.
+
+Fallo en la Zona de Disponibilidad
+
+Si us-west-1a fallara, su aplicación seguiría funcionando en us-west-1b.
+
+

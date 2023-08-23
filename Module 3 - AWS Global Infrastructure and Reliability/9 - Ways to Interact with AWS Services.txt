@@ -1,0 +1,39 @@
+Ways to Interact with AWS Services
+AWS Management Console
+
+The AWS Management Console is a web-based interface for accessing and managing AWS services. You can quickly access recently used services and search for other services by name, keyword, or acronym. The console includes wizards and automated workflows that can simplify the process of completing tasks.
+
+You can also use the AWS Console mobile application to perform tasks such as monitoring resources, viewing alarms, and accessing billing information. Multiple identities can stay logged into the AWS Console mobile app at the same time.
+
+AWS Command Line Interface
+
+To save time when making API requests, you can use the AWS Command Line Interface (AWS CLI). AWS CLI enables you to control multiple AWS services directly from the command line within one tool. AWS CLI is available for users on Windows, macOS, and Linux. 
+
+By using AWS CLI, you can automate the actions that your services and applications perform through scripts. For example, you can use commands to launch an Amazon EC2 instance, connect an Amazon EC2 instance to a specific Auto Scaling group, and more.
+
+Software development kits (SDKs)
+
+Another option for accessing and managing AWS services is the software development kits (SDKs). SDKs make it easier for you to use AWS services through an API designed for your programming language or platform. SDKs enable you to use AWS services with your existing applications or create entirely new applications that will run on AWS.
+
+To help you get started with using SDKs, AWS provides documentation and sample code for each supported programming language. Supported programming languages include C++, Java, .NET, and more.
+
+============ ESPAÑOL =============
+
+Formas de interactuar con los servicios de AWS
+Consola de Administración de AWS
+
+La Consola de Administración de AWS es una interfaz basada en web para acceder y gestionar los servicios de AWS. Puede acceder rápidamente a los servicios utilizados recientemente y buscar otros servicios por nombre, palabra clave o acrónimo. La consola incluye asistentes y flujos de trabajo automatizados que pueden simplificar el proceso de completar tareas.
+
+También puede utilizar la aplicación móvil de la Consola de AWS para realizar tareas como monitorear recursos, ver alarmas y acceder a información de facturación. Múltiples identidades pueden mantenerse conectadas a la aplicación móvil de la Consola de AWS al mismo tiempo.
+
+Interfaz de Línea de Comandos de AWS
+
+Para ahorrar tiempo al realizar solicitudes de API, puede utilizar la Interfaz de Línea de Comandos de AWS (AWS CLI). AWS CLI le permite controlar múltiples servicios de AWS directamente desde la línea de comandos dentro de una única herramienta. AWS CLI está disponible para usuarios en Windows, macOS y Linux.
+
+Al utilizar AWS CLI, puede automatizar las acciones que realizan sus servicios y aplicaciones a través de scripts. Por ejemplo, puede utilizar comandos para iniciar una instancia de Amazon EC2, conectar una instancia de Amazon EC2 a un grupo de Auto Scaling específico y más.
+
+Kits de desarrollo de software (SDKs)
+
+Otra opción para acceder y gestionar los servicios de AWS son los kits de desarrollo de software (SDKs). Los SDKs facilitan el uso de los servicios de AWS a través de una API diseñada para su lenguaje de programación o plataforma. Los SDKs le permiten utilizar los servicios de AWS con sus aplicaciones existentes o crear aplicaciones completamente nuevas que se ejecutarán en AWS.
+
+Para ayudarlo a comenzar a utilizar los SDKs, AWS proporciona documentación y código de ejemplo para cada lenguaje de programación admitido. Los lenguajes de programación admitidos incluyen C++, Java, .NET y más.

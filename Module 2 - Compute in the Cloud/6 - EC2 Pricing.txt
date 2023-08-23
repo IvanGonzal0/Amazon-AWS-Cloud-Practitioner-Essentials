@@ -1,0 +1,71 @@
+Amazon EC2 Pricing
+With Amazon EC2, you pay only for the compute time that you use. Amazon EC2 offers a variety of pricing options for different use cases. For example, if your use case can withstand interruptions, you can save with Spot Instances. You can also save by committing early and locking in a minimum level of use with Reserved Instances.
+
+On-Demand
+On-Demand Instances are ideal for short-term, irregular workloads that cannot be interrupted. No upfront costs or minimum contracts apply. The instances run continuously until you stop them, and you pay for only the compute time you use.
+
+Sample use cases for On-Demand Instances include developing and testing applications and running applications that have unpredictable usage patterns. On-Demand Instances are not recommended for workloads that last a year or longer because these workloads can experience greater cost savings using Reserved Instances.
+
+Amazon EC2 Savings Plans
+AWS offers Savings Plans for several compute services, including Amazon EC2. Amazon EC2 Savings Plans enable you to reduce your compute costs by committing to a consistent amount of compute usage for a 1-year or 3-year term. This term commitment results in savings of up to 72% over On-Demand costs.
+
+Any usage up to the commitment is charged at the discounted Savings Plan rate (for example, $10 an hour). Any usage beyond the commitment is charged at regular On-Demand rates.
+
+Later in this course, you will review AWS Cost Explorer, a tool that enables you to visualize, understand, and manage your AWS costs and usage over time. If you are considering your options for Savings Plans, AWS Cost Explorer can analyze your Amazon EC2 usage over the past 7, 30, or 60 days. AWS Cost Explorer also provides customized recommendations for Savings Plans. These recommendations estimate how much you could save on your monthly Amazon EC2 costs, based on previous Amazon EC2 usage and the hourly commitment amount in a 1-year or 3-year Savings Plan.
+
+Reserved Instances
+Reserved Instances are a billing discount applied to the use of On-Demand Instances in your account. You can purchase Standard Reserved and Convertible Reserved Instances for a 1-year or 3-year term, and Scheduled Reserved Instances for a 1-year term. You realize greater cost savings with the 3-year option.
+
+At the end of a Reserved Instance term, you can continue using the Amazon EC2 instance without interruption. However, you are charged On-Demand rates until you do one of the following:
+
+Terminate the instance.
+
+Purchase a new Reserved Instance that matches the instance attributes (instance type, Region, tenancy, and platform).
+
+Spot Instances
+Spot Instances are ideal for workloads with flexible start and end times, or that can withstand interruptions. Spot Instances use unused Amazon EC2 computing capacity and offer you cost savings at up to 90% off of On-Demand prices.
+
+Suppose that you have a background processing job that can start and stop as needed (such as the data processing job for a customer survey). You want to start and stop the processing job without affecting the overall operations of your business. If you make a Spot request and Amazon EC2 capacity is available, your Spot Instance launches. However, if you make a Spot request and Amazon EC2 capacity is unavailable, the request is not successful until capacity becomes available. The unavailable capacity might delay the launch of your background processing job.
+
+After you have launched a Spot Instance, if capacity is no longer available or demand for Spot Instances increases, your instance may be interrupted. This might not pose any issues for your background processing job. However, in the earlier example of developing and testing applications, you would most likely want to avoid unexpected interruptions. Therefore, choose a different EC2 instance type that is ideal for those tasks.
+
+Dedicated Hosts
+Dedicated Hosts are physical servers with Amazon EC2 instance capacity that is fully dedicated to your use. 
+
+You can use your existing per-socket, per-core, or per-VM software licenses to help maintain license compliance. You can purchase On-Demand Dedicated Hosts and Dedicated Hosts Reservations. Of all the Amazon EC2 options that were covered, Dedicated Hosts are the most expensive.
+
+================================= ESPAÑOL ==================================
+
+Precios de Amazon EC2
+Con Amazon EC2, solo pagas por el tiempo de cómputo que utilizas. Amazon EC2 ofrece una variedad de opciones de precios para diferentes casos de uso. Por ejemplo, si tu caso de uso puede soportar interrupciones, puedes ahorrar con las Instancias Spot. También puedes ahorrar al comprometerte anticipadamente y bloquear un nivel mínimo de uso con las Instancias Reservadas.
+
+En Demanda
+Las Instancias Bajo Demanda son ideales para cargas de trabajo a corto plazo e irregulares que no pueden ser interrumpidas. No se aplican costos iniciales ni contratos mínimos. Las instancias se ejecutan continuamente hasta que las detienes, y solo pagas por el tiempo de cómputo que utilizas.
+
+Ejemplos de casos de uso para Instancias Bajo Demanda incluyen el desarrollo y prueba de aplicaciones y la ejecución de aplicaciones con patrones de uso impredecibles. No se recomiendan las Instancias Bajo Demanda para cargas de trabajo que duren un año o más, ya que estas cargas de trabajo pueden experimentar un mayor ahorro de costos utilizando Instancias Reservadas.
+
+Planes de Ahorro de Amazon EC2
+AWS ofrece Planes de Ahorro para varios servicios de cómputo, incluido Amazon EC2. Los Planes de Ahorro de Amazon EC2 te permiten reducir tus costos de cómputo al comprometerte a una cantidad constante de uso de cómputo por un período de 1 año o 3 años. Este compromiso de término resulta en ahorros de hasta un 72% sobre los costos Bajo Demanda.
+
+Cualquier uso hasta el compromiso se cobra a la tarifa descontada del Plan de Ahorro (por ejemplo, $10 por hora). Cualquier uso más allá del compromiso se cobra a las tarifas regulares Bajo Demanda.
+
+Más adelante en este curso, revisarás AWS Cost Explorer, una herramienta que te permite visualizar, comprender y gestionar tus costos y uso de AWS a lo largo del tiempo. Si estás considerando tus opciones para los Planes de Ahorro, AWS Cost Explorer puede analizar tu uso de Amazon EC2 en los últimos 7, 30 o 60 días. AWS Cost Explorer también proporciona recomendaciones personalizadas para los Planes de Ahorro. Estas recomendaciones estiman cuánto podrías ahorrar en tus costos mensuales de Amazon EC2, según el uso anterior de Amazon EC2 y la cantidad de compromiso por hora en un Plan de Ahorro de 1 año o 3 años.
+
+Instancias Reservadas
+Las Instancias Reservadas son un descuento de facturación aplicado al uso de Instancias Bajo Demanda en tu cuenta. Puedes comprar Instancias Reservadas Estándar y Convertibles por un período de 1 año o 3 años, y Instancias Reservadas Programadas por un período de 1 año. Obtendrás un mayor ahorro de costos con la opción de 3 años.
+
+Al finalizar el término de una Instancia Reservada, puedes seguir utilizando la instancia de Amazon EC2 sin interrupciones. Sin embargo, se te cobrarán tarifas Bajo Demanda hasta que realices una de las siguientes acciones:
+
+Terminar la instancia.
+Comprar una nueva Instancia Reservada que coincida con los atributos de la instancia (tipo de instancia, región, alojamiento y plataforma).
+Instancias Spot
+Las Instancias Spot son ideales para cargas de trabajo con horarios de inicio y final flexibles o que pueden soportar interrupciones. Las Instancias Spot utilizan capacidad de cómputo no utilizada de Amazon EC2 y te ofrecen ahorros de hasta un 90% respecto a los precios Bajo Demanda.
+
+Supongamos que tienes un trabajo de procesamiento en segundo plano que puede iniciarse y detenerse según sea necesario (como el trabajo de procesamiento de datos para una encuesta de clientes). Quieres iniciar y detener el trabajo de procesamiento sin afectar las operaciones generales de tu negocio. Si haces una solicitud Spot y hay capacidad de Amazon EC2 disponible, tu Instancia Spot se inicia. Sin embargo, si haces una solicitud Spot y no hay capacidad de Amazon EC2 disponible, la solicitud no se llevará a cabo hasta que haya capacidad disponible. La capacidad no disponible puede retrasar el inicio de tu trabajo de procesamiento en segundo plano.
+
+Una vez que hayas lanzado una Instancia Spot, si la capacidad ya no está disponible o la demanda de Instancias Spot aumenta, es posible que tu instancia sea interrumpida. Esto podría no presentar problemas para tu trabajo de procesamiento en segundo plano. Sin embargo, en el ejemplo anterior de desarrollo y prueba de aplicaciones, es probable que desees evitar interrupciones inesperadas. Por lo tanto, elige un tipo de instancia EC2 diferente que sea ideal para esas tareas.
+
+Alojamiento Dedicado
+Los Alojamientos Dedicados son servidores físicos con capacidad de instancia de Amazon EC2 que están completamente dedicados a tu uso.
+
+Puedes utilizar tus licencias de software existentes por socket, por núcleo o por máquina virtual para ayudar a mantener el cumplimiento de licencias. Puedes comprar Alojamientos Dedicados Bajo Demanda y Reservas de Alojamientos Dedicados. De todas las opciones de Amazon EC2 que se mencionaron, los Alojamientos Dedicados son los más costosos.

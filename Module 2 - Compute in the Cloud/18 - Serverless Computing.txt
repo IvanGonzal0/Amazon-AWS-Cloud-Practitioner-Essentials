@@ -1,0 +1,105 @@
+Serverless Computing
+Earlier in this module, you learned about Amazon EC2, a service that lets you run virtual servers in the cloud. If you have applications that you want to run in Amazon EC2, you must do the following:
+
+Provision instances (virtual servers).
+
+Upload your code.
+
+Continue to manage the instances while your application is running.
+
+
+The term “serverless” means that your code runs on servers, but you do not need to provision or manage these servers. With serverless computing, you can focus more on innovating new products and features instead of maintaining servers.
+
+Another benefit of serverless computing is the flexibility to scale serverless applications automatically. Serverless computing can adjust the applications' capacity by modifying the units of consumptions, such as throughput and memory. 
+
+An AWS service for serverless computing is AWS Lambda.
+
+AWS Lambda
+AWS Lambda
+ is a service that lets you run code without needing to provision or manage servers. 
+
+While using AWS Lambda, you pay only for the compute time that you consume. Charges apply only when your code is running. You can also run code for virtually any type of application or backend service, all with zero administration. 
+
+For example, a simple Lambda function might involve automatically resizing uploaded images to the AWS Cloud. In this case, the function triggers when uploading a new image. 
+
+How AWS Lambda works
+
+You upload your code to Lambda. 
+
+You set your code to trigger from an event source, such as AWS services, mobile applications, or HTTP endpoints.
+
+Lambda runs your code only when triggered.
+
+You pay only for the compute time that you use. In the previous example of resizing images, you would pay only for the compute time that you use when uploading new images. Uploading the images triggers Lambda to run code for the image resizing function.
+
+Containers
+In AWS, you can also build and run containerized applications.
+
+Containers provide you with a standard way to package your application's code and dependencies into a single object. You can also use containers for processes and workflows in which there are essential requirements for security, reliability, and scalability.
+
+Examples:
+One host with multiple containers
+
+Suppose that a company’s application developer has an environment on their computer that is different from the environment on the computers used by the IT operations staff. The developer wants to ensure that the application’s environment remains consistent regardless of deployment, so they use a containerized approach. This helps to reduce time spent debugging applications and diagnosing differences in computing environments.
+
+
+Tens of hosts with hundreds of containers
+
+When running containerized applications, it’s important to consider scalability. Suppose that instead of a single host with multiple containers, you have to manage tens of hosts with hundreds of containers. Alternatively, you have to manage possibly hundreds of hosts with thousands of containers. At a large scale, imagine how much time it might take for you to monitor memory usage, security, logging, and so on.
+
+Amazon Elastic Container Service (Amazon ECS)
+Amazon Elastic Container Service (Amazon ECS)
+ is a highly scalable, high-performance container management system that enables you to run and scale containerized applications on AWS. 
+Amazon ECS supports Docker containers. 
+Docker
+ is a software platform that enables you to build, test, and deploy applications quickly. AWS supports the use of open-source Docker Community Edition and subscription-based Docker Enterprise Edition. With Amazon ECS, you can use API calls to launch and stop Docker-enabled applications.
+
+
+ ====== ESPAÑOL =======
+
+ Computación sin Servidor
+
+En una sección anterior de este módulo, aprendiste sobre Amazon EC2, un servicio que te permite ejecutar servidores virtuales en la nube. Si tienes aplicaciones que deseas ejecutar en Amazon EC2, debes realizar las siguientes acciones:
+
+1. Provisionar instancias (servidores virtuales).
+2. Subir tu código.
+3. Continuar gestionando las instancias mientras tu aplicación está en funcionamiento.
+
+El término "sin servidor" significa que tu código se ejecuta en servidores, pero no necesitas aprovisionar ni gestionar estos servidores. Con la computación sin servidor, puedes centrarte más en innovar nuevos productos y características en lugar de mantener servidores.
+
+Otro beneficio de la computación sin servidor es la flexibilidad para escalar automáticamente las aplicaciones sin servidor. La computación sin servidor puede ajustar la capacidad de las aplicaciones modificando las unidades de consumo, como el rendimiento y la memoria.
+
+Un servicio de AWS para la computación sin servidor es AWS Lambda.
+
+AWS Lambda
+AWS Lambda es un servicio que te permite ejecutar código sin necesidad de aprovisionar o gestionar servidores.
+
+Al utilizar AWS Lambda, pagas solo por el tiempo de cómputo que consumes. Los cargos se aplican solo cuando tu código está en ejecución. También puedes ejecutar código para prácticamente cualquier tipo de aplicación o servicio backend, todo ello sin administración.
+
+Por ejemplo, una función Lambda simple podría implicar el redimensionamiento automático de imágenes cargadas en la nube de AWS. En este caso, la función se activa al cargar una nueva imagen.
+
+Cómo funciona AWS Lambda
+
+1. Subes tu código a Lambda.
+2. Configuras tu código para que se active desde una fuente de eventos, como servicios de AWS, aplicaciones móviles o puntos finales HTTP.
+3. Lambda ejecuta tu código solo cuando se activa.
+4. Pagas solo por el tiempo de cómputo que utilizas. En el ejemplo anterior de redimensionar imágenes, pagarías solo por el tiempo de cómputo utilizado al cargar nuevas imágenes. La carga de las imágenes activa Lambda para ejecutar el código de la función de redimensionamiento de imágenes.
+
+Contenedores
+En AWS, también puedes construir y ejecutar aplicaciones en contenedores.
+
+Los contenedores te proporcionan una forma estándar de empaquetar el código y las dependencias de tu aplicación en un solo objeto. También puedes utilizar contenedores para procesos y flujos de trabajo en los que existan requisitos esenciales de seguridad, confiabilidad y escalabilidad.
+
+Ejemplos:
+1. Un host con múltiples contenedores
+
+   Supongamos que un desarrollador de aplicaciones de una empresa tiene un entorno en su computadora diferente del entorno en las computadoras utilizadas por el personal de operaciones de TI. El desarrollador desea garantizar que el entorno de la aplicación se mantenga consistente independientemente de la implementación, por lo que utiliza un enfoque basado en contenedores. Esto ayuda a reducir el tiempo dedicado a depurar aplicaciones y diagnosticar diferencias en los entornos informáticos.
+
+2. Decenas de hosts con cientos de contenedores
+
+   Cuando se ejecutan aplicaciones en contenedores, es importante considerar la escalabilidad. Supongamos que, en lugar de un solo host con múltiples contenedores, debes gestionar decenas de hosts con cientos de contenedores. O bien, debes gestionar posiblemente cientos de hosts con miles de contenedores. A gran escala, imagina cuánto tiempo podría llevar monitorear el uso de memoria, la seguridad, el registro, y así sucesivamente.
+
+Amazon Elastic Container Service (Amazon ECS)
+Amazon Elastic Container Service (Amazon ECS) es un sistema de gestión de contenedores altamente escalable y de alto rendimiento que te permite ejecutar y escalar aplicaciones en contenedores en AWS.
+Amazon ECS es compatible con contenedores Docker.
+Docker es una plataforma de software que te permite construir, probar y desplegar aplicaciones rápidamente. AWS admite el uso de Docker Community Edition de código abierto y Docker Enterprise Edition basada en suscripción. Con Amazon ECS, puedes utilizar llamadas a la API para lanzar y detener aplicaciones habilitadas para Docker.

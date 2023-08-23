@@ -1,0 +1,29 @@
+Edge Locations
+An edge location is a site that Amazon CloudFront uses to store cached copies of your content closer to your customers for faster delivery.
+
+
+Origin
+Suppose that your company’s data is stored in Brazil, and you have customers who live in China. To provide content to these customers, you don’t need to move all the content to one of the Chinese Regions.
+Edge Location
+Instead of requiring your customers to get their data from Brazil, you can cache a copy locally at an edge location that is close to your customers in China.
+
+Customer
+When a customer in China requests one of your files, Amazon CloudFront retrieves the file from the cache in the edge location and delivers the file to the customer. The file is delivered to the customer faster because it came from the edge location near China instead of the original source in Brazil.
+
+========= ESPAÑOL ============
+
+Ubicaciones de Borde
+
+Una ubicación de borde es un sitio que Amazon CloudFront utiliza para almacenar copias en caché de su contenido cerca de sus clientes para una entrega más rápida.
+
+Origen
+
+Supongamos que los datos de su empresa se almacenan en Brasil y tiene clientes que viven en China. Para proporcionar contenido a estos clientes, no es necesario trasladar todo el contenido a una de las Regiones chinas.
+
+Ubicación de Borde
+
+En lugar de requerir que sus clientes obtengan sus datos desde Brasil, puede almacenar en caché una copia localmente en una ubicación de borde que esté cerca de sus clientes en China.
+
+Cliente
+
+Cuando un cliente en China solicita uno de sus archivos, Amazon CloudFront recupera el archivo de la caché en la ubicación de borde y lo entrega al cliente. El archivo se entrega al cliente más rápidamente porque proviene de la ubicación de borde cerca de China en lugar de la fuente original en Brasil.

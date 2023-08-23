@@ -1,0 +1,103 @@
+Benefits of Cloud Computing
+Consider why a company might choose to take a particular cloud computing approach when addressing business needs.
+
+Trade upfront expense for variable expense
+Upfront expense refers to data centers, physical servers, and other resources that you would need to invest in before using them. Variable expense means you only pay for computing resources you consume instead of investing heavily in data centers and servers before you know how you’re going to use them.
+
+By taking a cloud computing approach that offers the benefit of variable expense, companies can implement innovative solutions while saving on costs.
+
+Stop spending money to run and maintain data centers
+Computing in data centers often requires you to spend more money and time managing infrastructure and servers. A benefit of cloud computing is the ability to focus less on these tasks and more on your applications and customers.
+
+Stop guessing capacity
+With cloud computing, you don’t have to predict how much infrastructure capacity you will need before deploying an application. For example, you can launch Amazon EC2 instances when needed, and pay only for the compute time you use. Instead of paying for unused resources or having to deal with limited capacity, you can access only the capacity that you need. You can also scale in or scale out in response to demand.
+
+Benefit from massive economies of scale
+By using cloud computing, you can achieve a lower variable cost than you can get on your own. Because usage from hundreds of thousands of customers can aggregate in the cloud, providers, such as AWS, can achieve higher economies of scale. The economy of scale translates into lower pay-as-you-go prices. 
+
+Increase speed and agility
+The flexibility of cloud computing makes it easier for you to develop and deploy applications.
+
+This flexibility provides you with more time to experiment and innovate. When computing in data centers, it may take weeks to obtain new resources that you need. By comparison, cloud computing enables you to access new resources within minutes.
+
+Go global in minutes
+The global footprint of the AWS Cloud enables you to deploy applications to customers around the world quickly, while providing them with low latency. This means that even if you are located in a different part of the world than your customers, customers are able to access your applications with minimal delays. 
+
+Later in this course, you will explore the AWS global infrastructure in greater detail. You will examine some of the services that you can use to deliver content to customers around the world.
+
+====================================================================== ESPAÑOL =========================================================================
+
+Beneficios de la Computación en la Nube
+Considera por qué una empresa podría optar por adoptar un enfoque particular de la computación en la nube al abordar las necesidades empresariales.
+
+Cambiar gastos iniciales por gastos variables
+Los gastos iniciales se refieren a centros de datos, servidores físicos y otros recursos en los que tendrías que invertir antes de usarlos. Los gastos variables significan que solo pagas por los recursos informáticos que consumes en lugar de invertir fuertemente en centros de datos y servidores antes de saber cómo los vas a utilizar.
+
+Al adoptar un enfoque de computación en la nube que ofrece el beneficio de los gastos variables, las empresas pueden implementar soluciones innovadoras mientras ahorran en costos.
+
+Dejar de gastar dinero en operar y mantener centros de datos
+La computación en centros de datos a menudo requiere que gastes más dinero y tiempo en administrar la infraestructura y los servidores. Un beneficio de la computación en la nube es la capacidad de centrarse menos en estas tareas y más en tus aplicaciones y clientes.
+
+Dejar de adivinar la capacidad
+Con la computación en la nube, no necesitas predecir cuánta capacidad de infraestructura necesitarás antes de implementar una aplicación. Por ejemplo, puedes lanzar instancias de Amazon EC2 cuando las necesites y pagar solo por el tiempo de cómputo que uses. En lugar de pagar por recursos no utilizados o lidiar con capacidad limitada, puedes acceder solo a la capacidad que necesitas. También puedes escalar hacia arriba o hacia abajo en respuesta a la demanda.
+
+Beneficiarte de economías de escala masivas
+Al utilizar la computación en la nube, puedes lograr un costo variable más bajo que el que podrías obtener por tu cuenta. Debido a que el uso de cientos de miles de clientes puede agregarse en la nube, los proveedores como AWS pueden lograr economías de escala más altas. La economía de escala se traduce en precios más bajos de pago por uso.
+
+Aumentar la velocidad y la agilidad
+La flexibilidad de la computación en la nube hace que sea más fácil desarrollar e implementar aplicaciones.
+
+Esta flexibilidad te brinda más tiempo para experimentar e innovar. Cuando se computa en centros de datos, puede llevar semanas obtener nuevos recursos que necesitas. En comparación, la computación en la nube te permite acceder a nuevos recursos en cuestión de minutos.
+
+Expandirse globalmente en minutos
+La presencia global de la Nube AWS te permite implementar aplicaciones para clientes de todo el mundo de manera rápida, al tiempo que les proporciona baja latencia. Esto significa que incluso si te encuentras en una parte diferente del mundo que tus clientes, ellos pueden acceder a tus aplicaciones con retrasos mínimos.
+
+Más adelante en este curso, explorarás con mayor detalle la infraestructura global de AWS. Examinarás algunos de los servicios que puedes usar para entregar contenido a los clientes de todo el mundo.
+
+
+1.
+Pregunta 1
+What is cloud computing?
+
+
+
+a.Backing up files that are stored on desktop and mobile devices to prevent data loss
+
+
+b.Deploying applications connected to on-premises infrastructure
+
+
+c.Running code without needing to manage or provision servers
+
+
+d.On-demand delivery of IT resources and applications through the internet with pay-as-you-go pricing
+
+What is another name for on-premises deployment?
+
+
+a.Private cloud deployment
+
+
+b.Cloud-based application
+
+
+c.Hybrid deployment
+
+
+d.AWS Cloud3.
+
+
+Pregunta 3
+How does the scale of cloud computing help you to save costs?
+
+
+a.You do not have to invest in technology resources before using them.
+
+
+b.The aggregated cloud usage from a large number of customers results in lower pay-as-you-go prices.
+
+
+c.Accessing services on-demand helps to prevent excess or limited capacity.
+
+
+d.You can quickly deploy applications to customers and provide them with low latency.

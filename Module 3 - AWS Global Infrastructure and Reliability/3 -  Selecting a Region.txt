@@ -1,0 +1,40 @@
+Selecting a Region
+When determining the right Region for your services, data, and applications, consider the following four business factors. 
+
+Compliance with data governance and legal requirements
+Depending on your company and location, you might need to run your data out of specific areas. For example, if your company requires all of its data to reside within the boundaries of the UK, you would choose the London Region. 
+
+Not all companies have location-specific data regulations, so you might need to focus more on the other three factors.
+
+Proximity to your customers
+Selecting a Region that is close to your customers will help you to get content to them faster. For example, your company is based in Washington, DC, and many of your customers live in Singapore. You might consider running your infrastructure in the Northern Virginia Region to be close to company headquarters, and run your applications from the Singapore Region.
+
+Available services within a Region
+Sometimes, the closest Region might not have all the features that you want to offer to customers. AWS is frequently innovating by creating new services and expanding on features within existing services. However, making new services available around the world sometimes requires AWS to build out physical hardware one Region at a time. 
+
+Suppose that your developers want to build an application that uses Amazon Braket (AWS quantum computing platform). As of this course, Amazon Braket is not yet available in every AWS Region around the world, so your developers would have to run it in one of the Regions that already offers it.
+
+Pricing
+Suppose that you are considering running applications in both the United States and Brazil. The way Brazil’s tax structure is set up, it might cost 50% more to run the same workload out of the São Paulo Region compared to the Oregon Region. You will learn in more detail that several factors determine pricing, but for now know that the cost of services can vary from Region to Region.
+
+
+======== ESPAÑOL ========
+
+Seleccionando una Región
+Al determinar la Región adecuada para sus servicios, datos y aplicaciones, considere los siguientes cuatro factores empresariales.
+
+Cumplimiento de regulaciones de gobernanza de datos y requisitos legales
+Dependiendo de su empresa y ubicación, es posible que necesite ejecutar sus datos desde áreas específicas. Por ejemplo, si su empresa requiere que todos sus datos residen dentro de los límites del Reino Unido, elegiría la Región de Londres.
+
+No todas las empresas tienen regulaciones de datos específicas de ubicación, por lo que es posible que deba centrarse más en los otros tres factores.
+
+Proximidad a sus clientes
+Seleccionar una Región que esté cerca de sus clientes le ayudará a entregar contenido más rápido. Por ejemplo, si su empresa tiene su sede en Washington, DC, y muchos de sus clientes viven en Singapur, podría considerar ejecutar su infraestructura en la Región de Northern Virginia para estar cerca de la sede de la empresa y ejecutar sus aplicaciones desde la Región de Singapur.
+
+Servicios disponibles dentro de una Región
+A veces, la Región más cercana puede que no tenga todas las características que desea ofrecer a sus clientes. AWS innova frecuentemente creando nuevos servicios y expandiendo las características de los servicios existentes. Sin embargo, poner nuevos servicios a disposición en todo el mundo a veces requiere que AWS construya hardware físico en una Región a la vez.
+
+Suponga que sus desarrolladores desean crear una aplicación que utilice Amazon Braket (la plataforma de cómputo cuántico de AWS). Hasta la fecha de este curso, Amazon Braket aún no está disponible en todas las Regiones de AWS en todo el mundo, por lo que sus desarrolladores tendrían que ejecutarlo en una de las Regiones que ya lo ofrecen.
+
+Precios
+Suponga que está considerando ejecutar aplicaciones tanto en los Estados Unidos como en Brasil. Debido a la estructura fiscal de Brasil, podría costar un 50% más ejecutar la misma carga de trabajo desde la Región de São Paulo en comparación con la Región de Oregón. Aprenderá con más detalle que varios factores determinan los precios, pero por ahora sepa que el costo de los servicios puede variar de una Región a otra.

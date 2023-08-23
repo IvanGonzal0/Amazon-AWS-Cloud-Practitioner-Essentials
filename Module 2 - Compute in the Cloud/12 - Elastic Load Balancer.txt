@@ -1,0 +1,40 @@
+Elastic Load Balancer
+Elastic Load Balancing is the AWS service that automatically distributes incoming application traffic across multiple resources, such as Amazon EC2 instances. 
+
+A load balancer acts as a single point of contact for all incoming web traffic to your Auto Scaling group. This means that as you add or remove Amazon EC2 instances in response to the amount of incoming traffic, these requests route to the load balancer first. Then, the requests spread across multiple resources that will handle them. For example, if you have multiple Amazon EC2 instances, Elastic Load Balancing distributes the workload across the multiple instances so that no single instance has to carry the bulk of it. 
+
+Although Elastic Load Balancing and Amazon EC2 Auto Scaling are separate services, they work together to help ensure that applications running in Amazon EC2 can provide high performance and availability. 
+
+Example: Elastic Load Balancing
+Low-demand period
+Here’s an example of how Elastic Load Balancing works. Suppose that a few customers have come to the coffee shop and are ready to place their orders. 
+
+If only a few registers are open, this matches the demand of customers who need service. The coffee shop is less likely to have open registers with no customers. In this example, you can think of the registers as Amazon EC2 instances.
+
+
+High-demand period
+Throughout the day, as the number of customers increases, the coffee shop opens more registers to accommodate them. In the diagram, the Auto Scaling group represents this.
+
+Additionally, a coffee shop employee directs customers to the most appropriate register so that the number of requests can evenly distribute across the open registers. You can think of this coffee shop employee as a load balancer. 
+
+
+
+=========== ESPAÑOL ==============
+
+Balanceador de Carga Elástico
+Elastic Load Balancing es el servicio de AWS que distribuye automáticamente el tráfico de aplicación entrante entre múltiples recursos, como instancias de Amazon EC2.
+
+Un balanceador de carga actúa como un único punto de contacto para todo el tráfico web entrante a su grupo de Auto Scaling. Esto significa que a medida que agrega o elimina instancias de Amazon EC2 en respuesta a la cantidad de tráfico entrante, estas solicitudes se dirigen primero al balanceador de carga. Luego, las solicitudes se distribuyen entre múltiples recursos que las manejarán. Por ejemplo, si tiene varias instancias de Amazon EC2, Elastic Load Balancing distribuye la carga de trabajo entre las múltiples instancias para que ninguna instancia individual tenga que llevar la mayor parte de ella.
+
+Aunque Elastic Load Balancing y Amazon EC2 Auto Scaling son servicios separados, trabajan juntos para garantizar que las aplicaciones en ejecución en Amazon EC2 puedan proporcionar un alto rendimiento y disponibilidad.
+
+Ejemplo: Elastic Load Balancing
+Período de baja demanda
+Aquí tienes un ejemplo de cómo funciona Elastic Load Balancing. Supongamos que algunos clientes han llegado a una cafetería y están listos para hacer sus pedidos.
+
+Si solo hay algunas cajas registradoras abiertas, esto coincide con la demanda de clientes que necesitan servicio. Es menos probable que la cafetería tenga cajas registradoras abiertas sin clientes. En este ejemplo, puedes pensar en las cajas registradoras como instancias de Amazon EC2.
+
+Período de alta demanda
+A lo largo del día, a medida que aumenta el número de clientes, la cafetería abre más cajas registradoras para acomodarlos. En el diagrama, el grupo de Auto Scaling representa esto.
+
+Además, un empleado de la cafetería dirige a los clientes hacia la caja registradora más adecuada para que el número de solicitudes se distribuya uniformemente entre las cajas registradoras abiertas. Puedes pensar en este empleado de la cafetería como un balanceador de carga.

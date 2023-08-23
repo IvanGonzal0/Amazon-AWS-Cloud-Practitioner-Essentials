@@ -1,0 +1,33 @@
+Monolithic Applications and Microservices
+Monolithic Applications
+Applications are made of multiple components. The components communicate with each other to transmit data, fulfill requests, and keep the application running. 
+
+Suppose that you have an application with tightly coupled components. These components might include databases, servers, the user interface, business logic, and so on. This type of architecture can be considered a monolithic application. 
+
+In this approach to application architecture, if a single component fails, other components fail, and possibly the entire application fails.
+
+
+Microservices
+To help maintain application availability when a single component fails, you can design your application through a microservices approach.
+
+In a microservices approach, application components are loosely coupled. In this case, if a single component fails, the other components continue to work because they are communicating with each other. The loose coupling prevents the entire application from failing. 
+
+When designing applications on AWS, you can take a microservices approach with services and components that fulfill different functions. Two services facilitate application integration: Amazon Simple Notification Service (Amazon SNS) and Amazon Simple Queue Service (Amazon SQS).
+
+========= ESPAÑOL ===========
+
+Aplicaciones Monolíticas y Microservicios
+
+Aplicaciones Monolíticas
+Las aplicaciones están compuestas por múltiples componentes. Estos componentes se comunican entre sí para transmitir datos, cumplir con solicitudes y mantener la aplicación en funcionamiento.
+
+Supongamos que tienes una aplicación con componentes estrechamente acoplados. Estos componentes pueden incluir bases de datos, servidores, la interfaz de usuario, lógica empresarial, entre otros. Este tipo de arquitectura se puede considerar una aplicación monolítica.
+
+En este enfoque de arquitectura de aplicaciones, si un solo componente falla, otros componentes también fallan y posiblemente la aplicación entera falla.
+
+Microservicios
+Para ayudar a mantener la disponibilidad de la aplicación cuando un solo componente falla, puedes diseñar tu aplicación mediante un enfoque de microservicios.
+
+En un enfoque de microservicios, los componentes de la aplicación están débilmente acoplados. En este caso, si un solo componente falla, los demás componentes continúan funcionando porque se comunican entre sí. El acoplamiento débil evita que la aplicación completa falle.
+
+Cuando diseñas aplicaciones en AWS, puedes adoptar un enfoque de microservicios con servicios y componentes que cumplen diferentes funciones. Dos servicios facilitan la integración de la aplicación: Amazon Simple Notification Service (Amazon SNS) y Amazon Simple Queue Service (Amazon SQS).
