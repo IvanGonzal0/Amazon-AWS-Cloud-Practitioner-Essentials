@@ -1,0 +1,27 @@
+Cuando utiliza Amazon EC2 para ejecutar sus aplicaciones empresariales, esas aplicaciones necesitan acceso a la CPU, la memoria, la red y el 
+almacenamiento. Las instancias EC2 le dan acceso a todos esos componentes diferentes y ahora mismo, vamos a centrarnos en el acceso al 
+almacenamiento. A medida que las aplicaciones se ejecutan, a menudo necesitarán acceder al almacenamiento a nivel de bloque. Puede pensar en el 
+almacenamiento a nivel de bloque como un lugar donde almacenar archivos, siendo un archivo una serie de bytes que se almacenan en bloques en el 
+disco. Cuando se actualiza un archivo, no se sobrescribe toda la serie de bloques. En su lugar, sólo se actualizan las partes que cambian. Esto lo 
+convierte en un tipo de almacenamiento eficaz cuando se trabaja con aplicaciones como bases de datos, software empresarial o sistemas de archivos. 
+Cuando utiliza su ordenador portátil o personal, está accediendo al almacenamiento a nivel de bloque. Todo lo que es almacenamiento a nivel de 
+bloque, en este caso, es su disco duro. Las instancias EC2 también tienen discos duros. Hay algunos tipos diferentes. Cuando lanzas una instancia 
+EC2, dependiendo del tipo de instancia EC2 que hayas lanzado, puede que te proporcione almacenamiento local llamado volúmenes de almacenamiento de 
+instancia. Estos volúmenes están físicamente unidos a el host sobre el que se ejecuta tu instancia EC2, y puedes escribir en él como en un disco 
+duro normal. La pega aquí es que como este volumen está unido al host físico subyacente, si detiene o finaliza su instancia EC2, todos los datos 
+escritos en el volumen de almacén de instancia se borrarán. La razón de esto es que si arranca su instancia desde un estado detenido, es probable 
+que la instancia EC2 se inicie en otro host, un host donde ese volumen no existe. Recuerde, las instancias EC2 son máquinas virtuales y por lo 
+tanto el host subyacente puede cambiar entre la detención y el arranque de una instancia. Debido a esta naturaleza efímera o temporal de los volúmenes de almacenamiento de instancias, son útiles en situaciones en las que usted puede perder los datos que se están escribiendo en la unidad,
+ como archivos temporales, datos scratch, y datos que pueden ser fácilmente recreados sin consecuencias. De acuerdo. Te estoy diciendo que no 
+ escribas datos importantes en las unidades que vienen con las instancias EC2. Estoy seguro de que suena un poco aterrador porque, obviamente, 
+ necesitarás un lugar para escribir datos que persistan fuera del ciclo de vida de una instancia EC2. No querrá que toda su base de datos se borre 
+ cada vez que detenga una instancia EC2. No se preocupe, aquí es donde entra en juego un servicio llamado Amazon Elastic Block Store, o EBS. Con 
+ EBS, puede crear discos duros virtuales que denominamos volúmenes EBS que puede adjuntar a sus instancias EC2. Se trata de unidades independientes 
+ de los volúmenes de almacenamiento de instancias locales y no están vinculados directamente a el host en el que se ejecuta su EC2. Esto significa 
+ que los datos que escriba en un volumen EBS pueden persistir entre paradas y arranques de una instancia EC2. Los volúmenes EBS vienen en 
+ diferentes tamaños y tipos. Cómo funciona esto es que usted define el tamaño, tipo y configuraciones del volumen que necesita. Aprovisione el 
+ volumen y luego adjúntelo a su instancia EC2. A partir de ahí, puede configurar su aplicación para escribir en el volumen y listo. Si detiene y 
+ luego inicia esta instancia EC2, los datos en el volumen permanecen. Dado que el caso de uso de los volúmenes EBS es tener un disco duro que sea 
+ persistente en el que sus aplicaciones puedan escribir, probablemente sea importante que haga copias de seguridad de esos datos. EBS le permite 
+ tomar copias de seguridad incrementales de sus datos llamadas instantáneas. Es muy importante que tome instantáneas periódicas de sus volúmenes 
+ EBS. De este modo, si alguna vez se corrompe una unidad, no habrá perdido sus datos y podrá restaurarlos a partir de una instantánea.

@@ -1,0 +1,69 @@
+Instance Stores and Amazon Elastic Block Store (Amazon EBS)
+Instance stores
+Block-level storage volumes behave like physical hard drives.
+
+An 
+instance store
+ provides temporary block-level storage for an Amazon EC2 instance. An instance store is disk storage that is physically attached to the host computer for an EC2 instance, and therefore has the same lifespan as the instance. When the instance is terminated, you lose any data in the instance store.
+
+
+An Amazon EC2 instance with an attached instance store is running.
+
+
+
+The instance is stopped or terminated.
+
+
+
+All data on the attached instance store is deleted.
+
+
+Amazon Elastic Block Storage (Amazon EBS)
+Amazon Elastic Block Store (Amazon EBS)
+ is a service that provides block-level storage volumes that you can use with Amazon EC2 instances. If you stop or terminate an Amazon EC2 instance, all the data on the attached EBS volume remains available.
+
+To create an EBS volume, you define the configuration (such as volume size and type) and provision it. After you create an EBS volume, it can attach to an Amazon EC2 instance.
+
+Because EBS volumes are for data that needs to persist, it’s important to back up the data. You can take incremental backups of EBS volumes by creating Amazon EBS snapshots.
+
+
+
+Amazon EBS Snapshots
+An 
+EBS snapshot
+ is an incremental backup. This means that the first backup taken of a volume copies all the data. For subsequent backups, only the blocks of data that have changed since the most recent snapshot are saved. 
+
+Incremental backups are different from full backups, in which all the data in a storage volume copies each time a backup occurs. The full backup includes data that has not changed since the most recent backup.
+
+
+============= ESPAÑOL ================
+
+Almacenamiento de instancias y Amazon Elastic Block Store (Amazon EBS)
+
+Almacenamiento de instancias
+Los volúmenes de almacenamiento a nivel de bloque se comportan como discos duros físicos.
+
+Un
+almacenamiento de instancias
+proporciona almacenamiento temporal a nivel de bloque para una instancia de Amazon EC2. El almacenamiento de instancias es un almacenamiento de disco que está físicamente conectado a la computadora host de una instancia EC2 y, por lo tanto, tiene la misma vida útil que la instancia. Cuando se termina la instancia, se pierden los datos en el almacenamiento de instancias.
+
+Una instancia de Amazon EC2 con un almacenamiento de instancias adjunto está en ejecución.
+
+La instancia se detiene o se termina.
+
+Todos los datos en el almacenamiento de instancias adjunto se borran.
+
+Amazon Elastic Block Storage (Amazon EBS)
+Amazon Elastic Block Store (Amazon EBS)
+ es un servicio que proporciona volúmenes de almacenamiento a nivel de bloque que puedes utilizar con las instancias de Amazon EC2. Si detienes o terminas una instancia de Amazon EC2, todos los datos en el volumen EBS adjunto siguen estando disponibles.
+
+Para crear un volumen EBS, defines la configuración (como el tamaño y el tipo del volumen) y lo aprovisionas. Después de crear un volumen EBS, puedes adjuntarlo a una instancia de Amazon EC2.
+
+Dado que los volúmenes EBS son para datos que deben persistir, es importante hacer copias de seguridad de los datos. Puedes realizar copias de seguridad incrementales de los volúmenes EBS mediante la creación de instantáneas de Amazon EBS.
+
+Instantáneas de Amazon EBS
+Una
+instantánea de EBS
+es una copia de seguridad incremental. Esto significa que la primera copia de seguridad de un volumen copia todos los datos. Para las copias de seguridad posteriores, solo se guardan los bloques de datos que han cambiado desde la instantánea más reciente.
+
+Las copias de seguridad incrementales son diferentes de las copias de seguridad completas, en las que se copian todos los datos en un volumen de almacenamiento cada vez que se realiza una copia de seguridad. La copia de seguridad completa incluye datos que no han cambiado desde la copia de seguridad más reciente.

@@ -1,0 +1,99 @@
+Nonrelational Databases
+In a nonrelational database, you create tables. A table is a place where you can store and query data.
+
+Nonrelational databases are sometimes referred to as “NoSQL databases” because they use structures other than rows and columns to organize data. One type of structural approach for nonrelational databases is key-value pairs. With key-value pairs, data is organized into items (keys), and items have attributes (values). You can think of attributes as being different features of your data.
+
+In a key-value database, you can add or remove attributes from items in the table at any time. Additionally, not every item in the table has to have the same attributes. 
+
+Example of data in a nonrelational database:
+
+
+Key
+
+Value
+
+1
+
+
+Name: John Doe
+
+Address: 123 Any Street
+
+Favorite drink: Medium latte
+
+2
+
+
+Name: Mary Major
+
+Address: 100 Main Street
+
+Birthday: July 5, 1994
+
+
+Amazon DynamoDB
+Amazon DynamoDB
+ is a key-value database service. It delivers single-digit millisecond performance at any scale.
+
+Serverless
+
+DynamoDB is serverless, which means that you do not have to provision, patch, or manage servers. 
+
+You also do not have to install, maintain, or operate software.
+
+Automatic Scaling
+
+As the size of your database shrinks or grows, DynamoDB automatically scales to adjust for changes in capacity while maintaining consistent performance. 
+
+This makes it a suitable choice for use cases that require high performance while scaling.
+
+
+====== ESPAÑOL ======
+
+Bases de Datos No Relacionales
+
+En una base de datos no relacional, creas tablas. Una tabla es un lugar donde puedes almacenar y consultar datos.
+
+Las bases de datos no relacionales a veces se denominan "bases de datos NoSQL" porque utilizan estructuras distintas de filas y columnas para organizar los datos. Un tipo de enfoque estructural para las bases de datos no relacionales son los pares de clave-valor. Con los pares de clave-valor, los datos se organizan en elementos (claves), y los elementos tienen atributos (valores). Puedes pensar en los atributos como diferentes características de tus datos.
+
+En una base de datos de clave-valor, puedes agregar o eliminar atributos de los elementos en la tabla en cualquier momento. Además, no todos los elementos en la tabla tienen que tener los mismos atributos.
+
+Ejemplo de datos en una base de datos no relacional:
+
+Clave
+
+Valor
+
+1
+
+Nombre: John Doe
+
+Dirección: 123 Any Street
+
+Bebida favorita: Café mediano con leche
+
+2
+
+Nombre: Mary Major
+
+Dirección: 100 Main Street
+
+Cumpleaños: 5 de julio de 1994
+
+Amazon DynamoDB
+Amazon DynamoDB
+ es un servicio de base de datos de clave-valor. Ofrece un rendimiento de milisegundos de un solo dígito a cualquier escala.
+
+Sin servidor
+
+DynamoDB es sin servidor, lo que significa que no tienes que aprovisionar, parchear ni administrar servidores.
+
+Tampoco tienes que instalar, mantener ni operar software.
+
+Escalabilidad Automática
+
+A medida que el tamaño de tu base de datos se reduce o crece, DynamoDB se escala automáticamente para ajustarse a los cambios en la capacidad manteniendo un rendimiento constante.
+
+Esto lo convierte en una elección adecuada para casos de uso que requieren un alto rendimiento durante el escalado.
+
+

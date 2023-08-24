@@ -1,0 +1,8 @@
+Ahora tenemos una gran operación de café en marcha. Tenemos muchos clientes satisfechos. De hecho, tenemos una arquitectura elástica, escalable, resistente a desastres y de costes optimizados que ahora cuenta con 
+una red global altamente segura que puede ser desplegada de forma totalmente programática.
+
+Ahora necesitamos alguna forma de mostrar nuestro agradecimiento a todos nuestros clientes fieles. ¿Qué le parece un programa de fidelización de clientes frecuentes? Podríamos limitarnos a repartir tarjetas 
+perforadas, pero seamos sinceros, no podemos hacer un buen seguimiento de ellas y utilizarlas para conocer mejor a nuestros clientes. Necesitamos tarjetas digitales, lo que significa, que tenemos que ser capaces de 
+hacer un seguimiento de nuestros clientes, lo que piden, cuánto han comprado. Esto les ayudará, a los clientes a obtener las mejores recompensas que se han ganado, y nos ayudará a conocer mejor a nuestra base de 
+clientes. Esto significa que necesitamos bases de datos y almacenamiento, y no cualquier base de datos, tenemos que asegurarnos de que elegimos la base de datos adecuada para la tarea y el almacenamiento adecuado 
+para los tipos de datos. Puede que tenga muchas necesidades de uso de datos y tipos de datos diferentes. Conozcamos los diferentes servicios que tiene AWS para ayudarle a crear la solución de datos perfecta.

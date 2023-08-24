@@ -1,0 +1,48 @@
+Amazon Elastic File System (Amazon EFS)
+File Storage
+In file storage, multiple clients (such as users, applications, servers, and so on) can access data that is stored in shared file folders. In this approach, a storage server uses block storage with a local file system to organize files. Clients access data through file paths.
+
+Compared to block storage and object storage, file storage is ideal for use cases in which a large number of services and resources need to access the same data at the same time.
+
+Amazon Elastic File System (Amazon EFS)
+ is a scalable file system used with AWS Cloud services and on-premises resources. As you add and remove files, Amazon EFS grows and shrinks automatically. It can scale on demand to petabytes without disrupting applications. 
+
+Comparing Amazon EBS and Amazon EFS
+Amazon EBS
+
+An Amazon EBS volume stores data in a single Availability Zone. 
+
+To attach an Amazon EC2 instance to an EBS volume, both the Amazon EC2 instance and the EBS volume must reside within the same Availability Zone.
+
+Amazon EFS
+
+Amazon EFS is a regional service. It stores data in and across multiple Availability Zones. 
+
+The duplicate storage enables you to access data concurrently from all the Availability Zones in the Region where a file system is located. Additionally, on-premises servers can access Amazon EFS using AWS Direct Connect.
+
+
+======= ESPAÑOL =======
+
+
+Amazon Elastic File System (Amazon EFS)
+Almacenamiento de Archivos
+
+En el almacenamiento de archivos, múltiples clientes (como usuarios, aplicaciones, servidores, etc.) pueden acceder a datos almacenados en carpetas de archivos compartidos. En este enfoque, un servidor de almacenamiento utiliza almacenamiento a nivel de bloques con un sistema de archivos local para organizar archivos. Los clientes acceden a los datos a través de rutas de archivos.
+
+En comparación con el almacenamiento de bloques y el almacenamiento de objetos, el almacenamiento de archivos es ideal para casos de uso en los que se necesita que un gran número de servicios y recursos accedan a los mismos datos al mismo tiempo.
+
+Amazon Elastic File System (Amazon EFS)
+ es un sistema de archivos escalable utilizado con servicios de AWS Cloud y recursos locales. A medida que agregas y eliminas archivos, Amazon EFS crece y se reduce automáticamente. Puede escalar a petabytes según la demanda sin interrumpir aplicaciones.
+
+Comparación entre Amazon EBS y Amazon EFS
+Amazon EBS
+
+Un volumen de Amazon EBS almacena datos en una sola Zona de Disponibilidad.
+
+Para adjuntar una instancia de Amazon EC2 a un volumen de EBS, tanto la instancia de Amazon EC2 como el volumen de EBS deben residir en la misma Zona de Disponibilidad.
+
+Amazon EFS
+
+Amazon EFS es un servicio regional. Almacena datos en múltiples Zonas de Disponibilidad y a través de ellas.
+
+El almacenamiento duplicado te permite acceder a los datos de manera concurrente desde todas las Zonas de Disponibilidad en la Región donde se encuentra un sistema de archivos. Además, los servidores locales pueden acceder a Amazon EFS utilizando AWS Direct Connect.

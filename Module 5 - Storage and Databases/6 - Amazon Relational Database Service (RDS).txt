@@ -1,0 +1,135 @@
+Amazon Relational Database Service (Amazon RDS)
+Relational databases
+In a relational database, data is stored in a way that relates it to other pieces of data. 
+
+An example of a relational database might be the coffee shop’s inventory management system. Each record in the database would include data for a single item, such as product name, size, price, and so on.
+
+Relational databases use structured query language (SQL) to store and query data. This approach allows data to be stored in an easily understandable, consistent, and scalable way. For example, the coffee shop owners can write a SQL query to identify all the customers whose most frequently purchased drink is a medium latte.
+
+Example of data in a relational database:
+
+ID
+
+Product Name
+
+Size
+
+Price
+
+1
+
+Medium roast ground coffee
+
+12 oz.
+
+$5.30
+
+2
+
+Dark roast ground coffee
+
+20 oz.
+
+$9.27
+
+
+Amazon Relational Database Service
+Amazon Relational Database Service (Amazon RDS)
+ is a service that enables you to run relational databases in the AWS Cloud.
+
+Amazon RDS is a managed service that automates tasks such as hardware provisioning, database setup, patching, and backups. With these capabilities, you can spend less time completing administrative tasks and more time using data to innovate your applications. You can integrate Amazon RDS with other services to fulfill your business and operational needs, such as using AWS Lambda to query your database from a serverless application.
+
+Amazon RDS provides a number of different security options. Many Amazon RDS database engines offer encryption at rest (protecting data while it is stored) and encryption in transit (protecting data while it is being sent and received).
+
+Amazon RDS database engines
+Amazon RDS is available on six database engines, which optimize for memory, performance, or input/output (I/O). Supported database engines include:
+
+Amazon Aurora
+
+PostgreSQL
+
+MySQL
+
+MariaDB
+
+Oracle Database
+
+Microsoft SQL Server
+
+Amazon Aurora
+Amazon Aurora
+ is an enterprise-class relational database. It is compatible with MySQL and PostgreSQL relational databases. It is up to five times faster than standard MySQL databases and up to three times faster than standard PostgreSQL databases.
+
+Amazon Aurora helps to reduce your database costs by reducing unnecessary input/output (I/O) operations, while ensuring that your database resources remain reliable and available. 
+
+Consider Amazon Aurora if your workloads require high availability. It replicates six copies of your data across three Availability Zones and continuously backs up your data to Amazon S3.
+
+
+====== ESPAÑOL ======
+
+Amazon Relational Database Service (Amazon RDS)
+Bases de Datos Relacionales
+
+En una base de datos relacional, los datos se almacenan de manera que se relacionan con otras piezas de datos.
+
+Un ejemplo de una base de datos relacional podría ser el sistema de gestión de inventario de una cafetería. Cada registro en la base de datos incluiría datos para un solo artículo, como el nombre del producto, el tamaño, el precio, y así sucesivamente.
+
+Las bases de datos relacionales utilizan un lenguaje de consulta estructurado (SQL) para almacenar y consultar datos. Este enfoque permite que los datos se almacenen de una manera fácil de entender, consistente y escalable. Por ejemplo, los propietarios de la cafetería pueden escribir una consulta SQL para identificar a todos los clientes cuya bebida más comprada es un café mediano con leche.
+
+Ejemplo de datos en una base de datos relacional:
+
+ID
+
+Nombre del Producto
+
+Tamaño
+
+Precio
+
+1
+
+Café molido tostado medio
+
+12 oz.
+
+$5.30
+
+2
+
+Café molido tostado oscuro
+
+20 oz.
+
+$9.27
+
+Amazon Relational Database Service (Amazon RDS)
+Amazon Relational Database Service (Amazon RDS)
+ es un servicio que te permite ejecutar bases de datos relacionales en la nube de AWS.
+
+Amazon RDS es un servicio gestionado que automatiza tareas como el aprovisionamiento de hardware, la configuración de la base de datos, la aplicación de parches y las copias de seguridad. Con estas capacidades, puedes dedicar menos tiempo a completar tareas administrativas y más tiempo a utilizar datos para innovar en tus aplicaciones. Puedes integrar Amazon RDS con otros servicios para satisfacer tus necesidades comerciales y operativas, como usar AWS Lambda para consultar tu base de datos desde una aplicación sin servidor.
+
+Amazon RDS proporciona una serie de opciones de seguridad diferentes. Muchos motores de bases de datos de Amazon RDS ofrecen cifrado en reposo (protección de los datos mientras se almacenan) y cifrado en tránsito (protección de los datos mientras se envían y reciben).
+
+Motores de bases de datos de Amazon RDS
+Amazon RDS está disponible en seis motores de bases de datos, que se optimizan para la memoria, el rendimiento o la entrada/salida (I/O). Los motores de bases de datos admitidos incluyen:
+
+Amazon Aurora
+
+PostgreSQL
+
+MySQL
+
+MariaDB
+
+Oracle Database
+
+Microsoft SQL Server
+
+Amazon Aurora
+Amazon Aurora
+ es una base de datos relacional de clase empresarial. Es compatible con bases de datos relacionales MySQL y PostgreSQL. Es hasta cinco veces más rápido que las bases de datos MySQL estándar y hasta tres veces más rápido que las bases de datos PostgreSQL estándar.
+
+Amazon Aurora ayuda a reducir los costos de tu base de datos al reducir las operaciones de entrada/salida (I/O) innecesarias, al tiempo que garantiza que los recursos de tu base de datos sigan siendo fiables y disponibles.
+
+Considera Amazon Aurora si tus cargas de trabajo requieren alta disponibilidad. Replica seis copias de tus datos en tres Zonas de Disponibilidad y realiza copias de seguridad continuas de tus datos en Amazon S3.
+
