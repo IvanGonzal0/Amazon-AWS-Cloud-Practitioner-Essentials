@@ -1,0 +1,82 @@
+Additional Database Services
+Amazon DocumentDB
+ is a document database service that supports MongoDB workloads. (MongoDB is a document database program.)
+
+Amazon Neptune
+Amazon Neptune
+ is a graph database service. 
+
+You can use Amazon Neptune to build and run applications that work with highly connected datasets, such as recommendation engines, fraud detection, and knowledge graphs.
+
+Amazon Quantum Ledger Database (Amazon QLDB) 
+Amazon Quantum Ledger Database (Amazon QLDB)
+ is a ledger database service. 
+
+You can use Amazon QLDB to review a complete history of all the changes that have been made to your application data.
+
+Amazon Managed Blockchain
+Amazon Managed Blockchain
+ is a service that you can use to create and manage blockchain networks with open-source frameworks. 
+
+Blockchain is a distributed ledger system that lets multiple parties run transactions and share data without a central authority.
+
+Amazon ElastiCache
+Amazon ElastiCache
+ is a service that adds caching layers on top of your databases to help improve the read times of common requests. 
+
+It supports two types of data stores: Redis and Memcached.
+
+Amazon DynamoDB Accelerator
+Amazon DynamoDB Accelerator (DAX)
+ is an in-memory cache for DynamoDB. 
+
+It helps improve response times from single-digit milliseconds to microseconds.
+
+
+===== ESPAÑOL ======
+
+Servicios Adicionales de Bases de Datos
+Amazon DocumentDB
+ es un servicio de base de datos de documentos que admite cargas de trabajo de MongoDB. (MongoDB es un programa de base de datos de documentos).
+
+Amazon Neptune
+Amazon Neptune
+ es un servicio de base de datos de gráficos.
+
+Puedes utilizar Amazon Neptune para crear y ejecutar aplicaciones que trabajen con conjuntos de datos altamente conectados, como motores de recomendación, detección de fraudes y grafos de conocimiento.
+
+Amazon Quantum Ledger Database (Amazon QLDB)
+Amazon Quantum Ledger Database (Amazon QLDB)
+ es un servicio de base de datos de registro.
+
+Puedes utilizar Amazon QLDB para revisar un historial completo de todos los cambios que se han realizado en los datos de tu aplicación.
+
+Amazon Managed Blockchain
+Amazon Managed Blockchain
+ es un servicio que puedes utilizar para crear y gestionar redes de blockchain con marcos de código abierto.
+
+La blockchain es un sistema de libro mayor distribuido que permite a múltiples partes realizar transacciones y compartir datos sin una autoridad central.
+
+Amazon ElastiCache
+Amazon ElastiCache
+ es un servicio que agrega capas de almacenamiento en caché en la parte superior de tus bases de datos para ayudar a mejorar los tiempos de lectura de solicitudes comunes.
+
+Admite dos tipos de almacenes de datos: Redis y Memcached.
+
+Amazon DynamoDB Accelerator
+Amazon DynamoDB Accelerator (DAX)
+ es una caché en memoria para DynamoDB.
+
+Ayuda a mejorar los tiempos de respuesta desde milisegundos de un solo dígito a microsegundos.
+
+UPDATES M5
+
+Module 5 contains an update to the Amazon Simple Storage Service (Amazon S3) reading content. As part of this update, the article lists the following new storage classes:
+
+Amazon S3 Glacier Instant Retrieval
+
+Amazon S3 Glacier Flexible Retrieval (previously known as Amazon S3 Glacier)
+
+Amazon S3 Outposts
+
+

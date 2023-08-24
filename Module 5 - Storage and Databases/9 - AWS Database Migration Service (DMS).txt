@@ -1,0 +1,48 @@
+
+AWS Database Migration Service (AWS DMS)
+ enables you to migrate relational databases, nonrelational databases, and other types of data stores.
+
+With AWS DMS, you move data between a source database and a target database. 
+The source and target databases
+ can be of the same type or different types. During the migration, your source database remains operational, reducing downtime for any applications that rely on the database. 
+
+For example, suppose that you have a MySQL database that is stored on premises in an Amazon EC2 instance or in Amazon RDS. Consider the MySQL database to be your source database. Using AWS DMS, you could migrate your data to a target database, such as an Amazon Aurora database.
+
+Other use cases for AWS DMS
+Development and test database migrations
+
+Enabling developers to test applications against production data without affecting production users
+
+Database consolidation
+
+Combining several databases into a single database
+
+Continuous replication
+
+Sending ongoing copies of your data to other target sources instead of doing a one-time migration
+
+
+===== ESPAÑOL =====
+
+
+AWS Database Migration Service (AWS DMS)
+ te permite migrar bases de datos relacionales, bases de datos no relacionales y otros tipos de almacenes de datos.
+
+Con AWS DMS, puedes mover datos entre una base de datos fuente y una base de datos de destino.
+Las bases de datos fuente y de destino
+ pueden ser del mismo tipo o de tipos diferentes. Durante la migración, tu base de datos fuente permanece operativa, lo que reduce el tiempo de inactividad para cualquier aplicación que dependa de la base de datos.
+
+Por ejemplo, supongamos que tienes una base de datos MySQL que se encuentra en tus instalaciones en una instancia de Amazon EC2 o en Amazon RDS. Considera la base de datos MySQL como tu base de datos fuente. Utilizando AWS DMS, podrías migrar tus datos a una base de datos de destino, como una base de datos Amazon Aurora.
+
+Otros casos de uso para AWS DMS
+Migraciones de bases de datos de desarrollo y pruebas
+
+Permitir a los desarrolladores probar aplicaciones con datos de producción sin afectar a los usuarios de producción
+
+Consolidación de bases de datos
+
+Combinar varias bases de datos en una sola base de datos
+
+Replicación continua
+
+Enviar copias en curso de tus datos a otras fuentes de destino en lugar de realizar una migración única

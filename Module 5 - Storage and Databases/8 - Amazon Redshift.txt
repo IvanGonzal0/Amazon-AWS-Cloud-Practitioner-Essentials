@@ -1,0 +1,9 @@
+
+Amazon Redshift
+ is a data warehousing service that you can use for big data analytics. It offers the ability to collect data from many sources and helps you to understand relationships and trends across your data.
+
+====== ESPAÑOL ======
+
+
+Amazon Redshift 
+ es un servicio de almacenamiento de datos que puedes utilizar para análisis de big data. Ofrece la capacidad de recopilar datos de muchas fuentes y te ayuda a comprender relaciones y tendencias en tus datos.
