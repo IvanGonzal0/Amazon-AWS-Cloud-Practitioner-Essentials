@@ -70,3 +70,38 @@ c.Amazon DocumentDB
 
 
 d.Amazon ElastiCache
+
+1.You are configuring service control policies (SCPs) in AWS Organizations. Which identities and resources can SCPs be applied to? (Select TWO.)
+
+
+
+a.IAM users
+
+
+b.IAM groups
+
+
+c.An individual member account
+
+
+d.IAM roles
+
+
+e.An organizational unit (OU)
+
+1.Which tasks can you complete in AWS Artifact? Select TWO.
+
+
+a.Access AWS compliance reports on-demand.
+
+
+b.Consolidate and manage multiple AWS accounts within a central location.
+
+
+c.Create users to enable people and applications to interact with AWS services and resources.
+
+
+d.Set permissions for accounts by configuring service control policies (SCPs).
+
+
+e.Review, accept, and manage agreements with AWS.
