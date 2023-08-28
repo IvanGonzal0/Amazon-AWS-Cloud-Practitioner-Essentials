@@ -27,4 +27,100 @@ b.Retiring
 c.Replatforming
 
 
-d.Repurchasing
+*d.Repurchasing
+
+3.
+
+What is the storage capacity of Snowball Edge Storage Optimized?
+
+
+a.40 TB
+
+
+b.60 TB
+
+
+*c.80 TB
+
+
+d.100 TB
+
+
+4.
+Which service enables you to quickly build, train, and deploy machine learning models?
+
+
+a.Amazon Textract
+
+
+b.Amazon Lex
+
+
+c.AWS DeepRacer
+
+
+d.Amazon SageMaker
+
+Module 9 Quiz_
+
+1.
+Which Perspective of the AWS Cloud Adoption Framework helps you structure the selection and implementation of permissions?
+
+
+a.Governance Perspective
+
+
+*b.Security Perspective
+
+
+c.Operations Perspective
+
+
+d.Business Perspective
+
+2.
+Which strategies are included in the six strategies for application migration? Select TWO.
+
+a.Revisiting
+
+
+*b.Retaining
+
+
+c.Remembering
+
+
+d.Redeveloping
+
+
+*e.Rehosting
+
+3.
+What is the storage capacity of AWS Snowmobile?
+
+
+a.40 PB
+
+
+b.60 PB
+
+
+c.80 PB
+
+
+*d.100 PB
+
+4.
+Which statement best describes Amazon Lex?
+
+
+*a.A service that enables you to build conversational interfaces using voice and text
+
+
+b.A machine learning service that automatically extracts text and data from scanned documents
+
+
+c.A document database service that supports MongoDB workloads
+
+
+d.A service that enables you to identify potentially fraudulent online activities
