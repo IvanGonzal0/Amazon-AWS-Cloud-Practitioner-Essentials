@@ -1,0 +1,69 @@
+1.
+Which pillar of the AWS Well-Architected Framework focuses on the ability of a workload to consistently and correctly perform its intended functions?
+
+
+a.Operational Excellence
+
+
+b.Performance Efficiency
+
+
+c.Security
+
+
+*d.Reliability
+
+2.
+Which process is an example of benefiting from massive economies of scale?
+
+
+a.Deploying an application in multiple Regions around the world
+
+
+*b.Receiving lower pay-as-you-go prices as the result of AWS customers’ aggregated usage of services
+
+
+c.Paying for compute time as you use it instead of investing upfront costs in data centers
+
+
+d.Scaling your infrastructure capacity in and out to meet demand
+
+
+10-Quiz
+1.
+Which pillar of the AWS Well-Architected Framework includes the ability to run workloads effectively and gain insights into their operations?
+
+
+a.Cost Optimization
+
+
+*b.Operational Excellence
+
+
+c.Performance Efficiency
+
+
+d.Reliability
+
+
+2.
+What are the benefits of cloud computing? Select TWO.
+
+
+a.Increase speed and agility.
+
+
+b.Benefit from smaller economies of scale.
+
+
+c.Trade variable expense for upfront expense.
+
+
+d.Maintain infrastructure capacity.
+
+
+e.Stop spending money running and maintaining data centers.
+
+
+
+
